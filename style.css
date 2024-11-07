@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('image.jpg') no-repeat center center/cover;
+}
+
+.stopwatch-container {
+    text-align: center;
+    background: rgba(94, 153, 184, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#time-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    max-height: 100px;
+    overflow-y: auto;
+}
